@@ -20,19 +20,19 @@ Data Visualization: Uses hvPlot to create interactive scatter plots.
 
 # Steps
 
-1. Data Preparation
+- 1. Data Preparation
 
 Load and normalize data using StandardScaler().
 
 Create a DataFrame with scaled values, maintaining coin_id as the index.
 
-2. Finding the Best k for Clustering
+- 2. Finding the Best k for Clustering
 
 Implement the Elbow Method to find the optimal number of clusters (k).
 
 Plot the elbow curve to visualize inertia values.
 
-3. Clustering Cryptocurrencies (Original Data)
+- 3. Clustering Cryptocurrencies (Original Data)
 
 Apply K-Means clustering on the scaled DataFrame.
 
@@ -40,7 +40,7 @@ Predict clusters and add them to the dataset.
 
 Create an hvPlot scatter plot to visualize the clusters.
 
-4. Optimizing with PCA
+- 4. Optimizing with PCA
 
 Reduce features to three principal components using PCA.
 
@@ -48,13 +48,13 @@ Retrieve explained variance to assess retained information.
 
 Create a new PCA-transformed DataFrame.
 
-5. Finding the Best k for PCA Data
+- 5. Finding the Best k for PCA Data
 
 Reapply the Elbow Method to the PCA-reduced DataFrame.
 
 Compare optimal k values between original and PCA-transformed data.
 
-6. Clustering Cryptocurrencies (PCA Data)
+- 6. Clustering Cryptocurrencies (PCA Data)
 
 Run K-Means clustering on the PCA-transformed DataFrame.
 
@@ -62,7 +62,7 @@ Predict clusters and add them to the dataset.
 
 Create an hvPlot scatter plot using PCA components.
 
-7. Results Comparison
+- 7. Results Comparison
 
 Compare elbow curves from both original and PCA data.
 
