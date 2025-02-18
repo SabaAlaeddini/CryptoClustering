@@ -68,7 +68,7 @@ Compare elbow curves from both original and PCA data.
 
 Analyze differences in clustering performance.
 
-Visualization & Interpretation
+# Visualization & Interpretation
 
 Compare elbow curves from original vs. PCA-transformed data.
 
